@@ -85,31 +85,37 @@ export const faq = { // faq section
     loanRange: [
         {
             programName: "the Full Stack Web Development Immersive program",
-            maxAmount: "$11,950",
+            maxAmount: "$12,450",
             col: true,
             colAmount: "$2,000"
         },
         {
-            programName: "the Full Stack Web Development Online/Advanced Online programs",
+            programName: "the Full Stack Web Development Advanced Online program",
+            maxAmount: "$6,700",
+            col: false,
+            colAmount: "$6,000"
+        },
+        {
+            programName: "the Full Stack Web Development Online program",
             maxAmount: "$5,150",
             col: false,
             colAmount: "$6,000"
         },
         {
             programName: "the Full Stack Web Development After-Hours program",
-            maxAmount: "$6,350",
+            maxAmount: "$6,850",
             col: false,
             colAmount: "$6,000"
         },
         {
             programName: "the UI/UX Design Part-Time program",
-            maxAmount: "$5,550",
+            maxAmount: "$6,150",
             col: false,
             colAmount: "$6,000"
         },
         {
             programName: "the After-Hours Career Changer program",
-            maxAmount: "$11,000",
+            maxAmount: "$12,500",
             col: false,
             colAmount: "$6,000"
         },
@@ -176,7 +182,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "After-Hours Career Changer",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELAHC18",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 11000,
+            maxLoanAmt: 12500,
             loanTerm36: true,
             loanTerm60: true,
             '0': { // interest-only 
@@ -194,7 +200,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
           {
             location: "Metro 1",
             loanInfo: { // // match loanInfo to Program 1 above
-              maxLoanAmt: 11000,
+              maxLoanAmt: 12500,
               loanTerm36: true,
               loanTerm60: true,
               '0': { 
@@ -211,7 +217,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "UI/UX Design",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELIUX18",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 5500,
+            maxLoanAmt: 6150,
             loanTerm36: true,
             loanTerm60: true,
             '0': null,
@@ -228,7 +234,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
             {
               location: "Metro 1",
               loanInfo: { // match loanInfo to Program 2 loanInfo above
-                maxLoanAmt: 5500,
+                maxLoanAmt: 6150,
                 loanTerm36: true,
                 loanTerm60: true,
                 '0': null,
@@ -279,7 +285,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "Web Development After-Hours",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELIAH18",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 6350,
+            maxLoanAmt: 6850,
             loanTerm36: true,
             loanTerm60: true,
             '0': null,
@@ -296,7 +302,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
             {
               location: "Metro A",
               loanInfo: { // match loanInfo to Program 3 loanInfo above
-                maxLoanAmt: 6350,
+                maxLoanAmt: 6850,
                 loanTerm36: true,
                 loanTerm60: true,
                 '0': null,
@@ -312,7 +318,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "Web Development Immersive",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELII18",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 13950,
+            maxLoanAmt: 14450,
             loanTerm36: true,
             loanTerm60: true,
             '0': { 
@@ -330,7 +336,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
             {
               location: "Metro A",
               loanInfo: { // match loanInfo to Program 3 loanInfo above
-                maxLoanAmt: 13950,
+                maxLoanAmt: 14450,
                 loanTerm36: true,
                 loanTerm60: true,
                 '0': { 
@@ -380,7 +386,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "Web Development Online Advanced",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELIWA18",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 5150,
+            maxLoanAmt: 6700,
             loanTerm36: true,
             loanTerm60: true,
             '0': null,
@@ -397,7 +403,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
             {
               location: "Metro A",
               loanInfo: { // match loanInfo to Program 3 loanInfo above
-                maxLoanAmt: 5150,
+                maxLoanAmt: 6700,
                 loanTerm36: true,
                 loanTerm60: true,
                 '0': null,
@@ -412,7 +418,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
-export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $11,950 for Full-Stack Web Development Immersive tuition and up to $2,000 for cost of living, up to $5,150 for Full-Stack Web Development Online/Advanced tuition, up to $6,350 for Full-Stack Web Development After-Hours tuition, up to $5,550 for UI/UX Design Part-Time tuition, up to $11,000 for After-Hours Career Changer tuition, or up to $10,650 for Unity Game Development Immersive tuition and up to $2,000 for cost of living."
+export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $12,450 for Full-Stack Web Development Immersive tuition and up to $2,000 for cost of living, up to $5,150 for Full-Stack Web Development Online tuition, up to $6,700 for Full-Stack Web Development Advanced Online tuition, up to $6,850 for Full-Stack Web Development After-Hours tuition, up to $6,150 for UI/UX Design Part-Time tuition, up to $12,500 for After-Hours Career Changer tuition, or up to $10,650 for Unity Game Development Immersive tuition and up to $2,000 for cost of living."
 
 export const paymentTable = {
     headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
