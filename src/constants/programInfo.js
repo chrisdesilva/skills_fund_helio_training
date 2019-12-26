@@ -180,7 +180,7 @@ export const moreThanSixPrograms = false // set to true if there are 7 or more p
 export const programLoanInfo = [ // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
     {
         name: "After-Hours Career Changer",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELAHC18",
+        url: "https://my.skills.fund/application?lenderCode=SKHELAHC18",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 12500,
             loanTerm36: true,
@@ -215,7 +215,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "UI/UX Design",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELIUX18",
+        url: "https://my.skills.fund/application?lenderCode=SKHELIUX18",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 6150,
             loanTerm36: true,
@@ -248,7 +248,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Unity Game Development",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELUGD19",
+        url: "https://my.skills.fund/application?lenderCode=SKHELUGD19",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 12650,
             loanTerm36: true,
@@ -283,7 +283,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Web Development After-Hours",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELIAH18",
+        url: "https://my.skills.fund/application?lenderCode=SKHELIAH18",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 6850,
             loanTerm36: true,
@@ -316,7 +316,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Web Development Immersive",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELII18",
+        url: "https://my.skills.fund/application?lenderCode=SKHELII18",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 14450,
             loanTerm36: true,
@@ -351,7 +351,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Web Development Online",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELIWO18",
+        url: "https://my.skills.fund/application?lenderCode=SKHELIWO18",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 5150,
             loanTerm36: true,
@@ -384,7 +384,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Web Development Online Advanced",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKHELIWA18",
+        url: "https://my.skills.fund/application?lenderCode=SKHELIWA18",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 6700,
             loanTerm36: true,
